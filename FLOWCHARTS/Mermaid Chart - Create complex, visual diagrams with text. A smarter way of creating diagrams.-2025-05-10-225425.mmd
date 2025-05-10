@@ -1,0 +1,39 @@
+flowchart TD
+    Start[Събуждане] --> Morning[Сутрешен Пик 5:00-8:00]
+    
+    Morning --> MorningStrat{Сутрешна Стратегия}
+    MorningStrat --> MorningNutr[Хранене: Протеин + Мазнини]
+    MorningStrat --> MorningSup[Добавки: Омега-3, B-комплекс, D3]
+    MorningStrat --> MorningAct[Активност: Планиране + Разтягане]
+    
+    MorningStrat --> MidMorning[9:30 - Средна Сутрин]
+    MidMorning --> MidMornNutr[Протеин + Нисък ГИ Въглехидрати]
+    
+    MidMorning --> PreNoon[Преди Обяд]
+    PreNoon --> SunExposure[10-минутна експозиция на слънце]
+    
+    PreNoon --> Lunch[12:30 - Обяд]
+    Lunch --> PreventStrat{Превантивна Стратегия}
+    PreventStrat --> LunchNutr[Хранене: Комплексни въглехидрати + Протеин]
+    PreventStrat --> LunchSup[Добавки: Магнезий + Ашваганда]
+    PreventStrat --> LunchAct[Активност: 5-мин движение]
+    
+    PreventStrat --> AfternoonDip[14:30-15:30 Следобеден Спад]
+    AfternoonDip --> EmergencyProt{Спешен Протокол}
+    EmergencyProt --> EmergPhys[Физиологично: Студена вода + Дишане]
+    EmergencyProt --> EmergNutr[Хранене: Протеин + Мазнини]
+    EmergencyProt --> EmergSup[Добавки: L-Теанин + Мин. кофеин]
+    EmergencyProt --> EmergAct[Активност: Промяна на позицията]
+    
+    EmergencyProt --> LateAfternoon[Късен Следобед]
+    LateAfternoon --> AfternoonReset[Кратка разходка + Заземяване]
+    
+    AfternoonReset --> Evening[Вечерен Пик 20:00-23:00]
+    Evening --> EveningStrat{Вечерна Стратегия}
+    EveningStrat --> EveningNutr[Хранене: Балансирана вечеря]
+    EveningStrat --> EveningSup[Добавки: L-Теанин + Магнезий]
+    EveningStrat --> EveningAct[Активност: Леко разтягане]
+    
+    EveningStrat --> Night[Подготовка за сън]
+    Night --> Sleep[Сън и възстановяване]
+    Sleep --> Start
